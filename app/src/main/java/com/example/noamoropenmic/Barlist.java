@@ -1,6 +1,8 @@
 package com.example.noamoropenmic;
 
-public class Barlist {
+import java.io.Serializable;
+
+public class Barlist implements Serializable {
 
     private int Image;
     private String Name;
