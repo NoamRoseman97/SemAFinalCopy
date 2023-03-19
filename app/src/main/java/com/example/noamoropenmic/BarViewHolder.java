@@ -26,10 +26,5 @@ public class BarViewHolder extends RecyclerView.ViewHolder {
         address = itemView.findViewById(R.id.address);
 
 
-        cardView = itemView.findViewById(R.id.cardview);
-        barImage = itemView.findViewById(R.id.barImage);
-        barName = itemView.findViewById(R.id.barName);
-        phone = itemView.findViewById(R.id.phone);
-        address = itemView.findViewById(R.id.address);
     }
 }
