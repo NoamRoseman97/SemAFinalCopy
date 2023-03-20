@@ -47,4 +47,4 @@ public class barAdapter extends RecyclerView.Adapter <BarViewHolder> {
     }
 }
 
-//this tells our adapter that our view is of time BarViewHolder
+//this tells our adapter that our view is of type BarViewHolder
