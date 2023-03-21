@@ -3,9 +3,14 @@ package com.example.noamoropenmic;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class  MainActivity3 extends AppCompatActivity {
 
@@ -27,5 +32,15 @@ public class  MainActivity3 extends AppCompatActivity {
         phone.setText(barlist.getPhoneNumber());
         address.setText(barlist.getAddress());
 
+        FloatingActionButton mapbtn = findViewById(R.id.MapButton);
+        mapbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent Main_Activity5_Map = new Intent(view.getContext(),MainActivity5Map.class);
+                startActivity(Main_Activity5_Map);
+            }
+        });
+
     }
 }
+

@@ -1,11 +1,13 @@
 package com.example.noamoropenmic;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
+import androidx.core.app.ActivityOptionsCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
@@ -36,7 +38,13 @@ public class barAdapter extends RecyclerView.Adapter <BarViewHolder> {
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(),MainActivity3.class);
                 intent.putExtra("Barlist",barlist);
-                view.getContext().startActivity(intent);
+                ActivityOptionsCompat option = ActivityOptionsCompat.makeSceneTransitionAnimation(
+                        (Activity) view.getContext(),
+                        holder.barImage,
+                        "BarTransition"
+                );
+
+                view.getContext().startActivity(intent, option.toBundle());
             }
         });
     }
