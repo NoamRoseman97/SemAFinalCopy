@@ -15,11 +15,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Button btn1 = findViewById(R.id.AUbtn);
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent activity_about_us = new Intent(view.getContext(),AboutUsMainActivity4.class);
+                startActivity(activity_about_us);
+
+            }
+        });
+
         Button btn = findViewById(R.id.button);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"Button Clicked!", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"So Let's Go!", Toast.LENGTH_LONG).show();
                 Intent activity2 = new Intent(view.getContext(),MainActivity2.class);
                 startActivity(activity2);
             }
