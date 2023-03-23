@@ -55,4 +55,4 @@ public class barAdapter extends RecyclerView.Adapter <BarViewHolder> {
     }
 }
 
-//this tells our adapter that our view is of type BarViewHolder
+//this tells our adapter that our view is of tyvpe BarViewHolder
