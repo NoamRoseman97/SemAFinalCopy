@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "634215407760",
+    "project_id": "finalapplicationsemb",
+    "storage_bucket": "finalapplicationsemb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634215407760:android:8858e55bf5e0683a99b815",
+        "android_client_info": {
+          "package_name": "com.example.noamoropenmic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634215407760-vgcl894aedhcv0cj10nqjh48a31cr58q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgc1Vl2dXSpL4mXsvsuYr2Cyb64IDIowQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634215407760-vgcl894aedhcv0cj10nqjh48a31cr58q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
