@@ -11,6 +11,7 @@ import android.widget.Toast;
 import com.google.firebase.analytics.FirebaseAnalytics;
 
 public class MainActivity extends AppCompatActivity {
+
     private FirebaseAnalytics mFirebaseAnalytics;
 
     @Override
