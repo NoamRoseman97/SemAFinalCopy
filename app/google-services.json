@@ -14,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "634215407760-vgcl894aedhcv0cj10nqjh48a31cr58q.apps.googleusercontent.com",
+          "client_id": "634215407760-h6vb43fgs0s9jdgspm0hsde9u6hh9k3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.noamoropenmic",
+            "certificate_hash": "3cbf969f47995eb0f4e955670db412a26e0b8541"
+          }
+        },
+        {
+          "client_id": "634215407760-cm5l75f4ba4u6oh9tnp96htvef2hcomm.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -27,7 +35,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "634215407760-vgcl894aedhcv0cj10nqjh48a31cr58q.apps.googleusercontent.com",
+              "client_id": "634215407760-cm5l75f4ba4u6oh9tnp96htvef2hcomm.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
