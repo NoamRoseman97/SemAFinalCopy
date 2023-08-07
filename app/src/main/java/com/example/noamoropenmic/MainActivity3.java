@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class  MainActivity3 extends AppCompatActivity {
@@ -27,7 +28,7 @@ public class  MainActivity3 extends AppCompatActivity {
         TextView barName = findViewById(R.id.barName);
         TextView phone = findViewById(R.id.phone);
 
-        barImage.setImageResource(barlist.getImage());
+        //barImage.setImageResource(barlist.getImage());
         barName.setText(barlist.getName());
         phone.setText(barlist.getPhoneNumber());
         address.setText(barlist.getAddress());
@@ -40,6 +41,8 @@ public class  MainActivity3 extends AppCompatActivity {
                 startActivity(Main_Activity5_Map);
             }
         });
+
+        Glide.with(this).load(barlist.getImage()).into(barImage);
 
     }
 }

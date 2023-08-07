@@ -4,19 +4,22 @@ import java.io.Serializable;
 
 public class Barlist implements Serializable {
 
-    private int Image;
+    private String Image;
     private String Name;
     private String Address;
     private String PhoneNumber;
 
-    public Barlist(int image, String name, String address, String phoneNumber) {
-        Image = image;
-        Name = name;
-        Address = address;
-        PhoneNumber = phoneNumber;
+
+
+    public Barlist(String barAddress, String barImage, String barName, String barPhone) {
+
+        Image = barImage;
+        Name = barName;
+        Address = barAddress;
+        PhoneNumber = barPhone;
     }
 
-    public int getImage() {
+    public String getImage() {
         return Image;
     }
 
